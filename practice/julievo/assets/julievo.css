@@ -1,0 +1,81 @@
+body {
+    padding: 20px;
+}
+
+h1,
+h2,
+li,
+p {
+    font-family: 'Lato', sans-serif;
+    color: #2d2329;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    text-align: center;
+}
+
+section:last-of-type {
+    padding-bottom: 0;
+}
+
+/* header */
+
+header {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+a {
+    color: #2d2329;
+}
+a:hover {
+    color: #ded492;
+}
+
+li {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* about me */
+
+
+/* what am I up to */
+
+
+/* let's chat */
+
+label,
+input,
+textarea {
+    font-size: 14px;
+    font-family: 'lato', sans-serif;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+}
+
+.contact-form textarea {
+    height: 400px;
+}
+
+.checkbox {
+    display: inline-block;
+}
+
+
+/* footer */
+footer {
+    height: 50px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julie Vo</title>
+    <link href="assets/julievo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<!-- practice making an single page html site -->
+
+<body>
+    <header>
+        <h1>Hi! I'm Julie!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci recusandae numquam rerum corporis nobis sed, beatae inventore delectus eum odit quia nam molestias possimus, voluptate culpa maxime est, dolore dolorem.</p>
+        <nav>
+            <ul>
+                <li><a href="#who">about me</a></li>
+                <li><a href="#what">projects</a></li>
+                <li><a href="#where">let's chat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="who">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, earum. Porro molestias earum atque aliquam molestiae placeat cum, voluptates explicabo similique qui a magni delectus eos voluptatum voluptas? Delectus, nisi.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, earum. Porro molestias earum atque aliquam molestiae placeat cum, voluptates explicabo similique qui a magni delectus eos voluptatum voluptas? Delectus, nisi.</p>
+    </section>
+
+    <section class="what" id="what">
+        <h2>What am I up to?</h2>
+        <div class="col-1-2"> 
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos ipsa soluta voluptatum cupiditate dolore, iure debitis sunt dolorum tempora quibusdam molestias velit numquam voluptates dicta quo quos eveniet, consequatur veritatis.</p>
+        </div>
+        <div class="col-1-2">
+            <table>
+                <caption> projects</caption>
+                <tr>
+                    <thead>
+                        <th>Plants</th>
+                        <th>Pets</th>
+                        <th>Programming</th>
+                    </thead>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>Something about plants</td>
+                        <td>Something about pets</td>
+                        <td>Something about programming</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="where">
+        <h2>Let's chat!</h2>
+        <form>
+            <fieldset class="contact-form">
+                <label>
+                    name
+                    <input type="name" name="name" placeholder="jane" required>
+                </label>
+                <label>
+                    email
+                    <input type="email" name="email" placeholder="jane@doe.com" required>
+                </label>
+                <textarea name="contact" placeholder=":-)"></textarea>
+                <label>
+                    Where did you hear about me?
+                    <input type="checkbox" name="reference" value="Meetup"> A Meetup
+                    <input type="checkbox" name="reference" value="Instragram"> Instragram
+                    <input type="checkbox" name="reference" value="LinkedIn"> LinkedIn
+                    <input type="checkbox" name="reference" value="other"> Other
+                </label>
+            </fieldset>
+            <input type="submit" name="submit" value="Send">
+        </form>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>

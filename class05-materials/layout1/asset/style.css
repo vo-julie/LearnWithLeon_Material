@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+section,
+footer {
+    border: 1px solid black;
+}
+
+header, 
+footer {
+    height: 100px;
+}
+
+.sec50-50 {
+    height: 200px;
+    width: 50%;
+    float: left;
+}
+
+.sec33-33-33 {
+    height: 300px;
+    width: 33.3333%;
+    float: left;
+}
+
+footer {
+    clear: both;
+}
